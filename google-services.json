@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "350650591313",
+    "project_id": "pixema-rn",
+    "storage_bucket": "pixema-rn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350650591313:android:248a3862194d2c02b43070",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpLxWGaNJnvm7kCdbe3_wYOdZcn6TRWs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
