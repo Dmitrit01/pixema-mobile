@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native";
 import { scaleSize } from "../../utils/scaleSize";
 import { Colors } from "../../types/colors";
+import { Fonts } from "../../types/fonts";
 
 export const styles = StyleSheet.create({
   container: {
@@ -95,7 +96,7 @@ export const styles = StyleSheet.create({
     alignItems:'center'
   },
   infoText:{
-    fontFamily:'inter-SemiBold'
+    fontFamily:Fonts.InterSemibold
   },
   boxBtn:{
     gap:scaleSize(10)

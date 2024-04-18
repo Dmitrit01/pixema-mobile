@@ -10,13 +10,14 @@ interface ButtonProps {
   onPress?: () => void;
   style?: StyleProp<ViewStyle>;
   icon?:ReactNode;
+  disabled?:boolean;
 }
 
 export const Button: FC<ButtonProps> = (props) => {
-  const { title, onPress, style,icon } = props;
+  const { title, onPress, style,icon, disabled} = props;
   const { isDarkTheme } = useAppContext();
   return (
-    <TouchableOpacity onPress={onPress} style={[styles.btn,style]}>
+    <TouchableOpacity onPress={onPress} style={[styles.btn,style]} disabled={disabled}>
      {icon && icon}
       <Text style={[style,isDarkTheme() && styles.isDarkFont]}>{title}</Text>
     </TouchableOpacity>

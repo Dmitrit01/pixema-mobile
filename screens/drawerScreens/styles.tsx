@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native";
 import { scaleSize } from "../../utils/scaleSize";
 import { Colors } from "../../types/colors";
+import { Fonts } from "../../types/fonts";
 
 export const styles = StyleSheet.create({
   wrapper: {
@@ -26,7 +27,7 @@ export const styles = StyleSheet.create({
     width: "100%",
   },
   infoText: {
-    fontFamily: "inter-SemiBold",
+    fontFamily: Fonts.InterSemibold,
   },
   img: {
     width: scaleSize(100),
@@ -41,7 +42,7 @@ export const styles = StyleSheet.create({
   favoriteTitle: {
     marginVertical: scaleSize(10),
     textAlign: "center",
-    fontFamily: "inter-Bold",
+    fontFamily: Fonts.InterBold,
     fontSize: scaleSize(23),
   },
   heartImg: {
